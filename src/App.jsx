@@ -9,6 +9,7 @@ import ClickOutside from './components/ClickOutside'
 import UserProfileLoader from './components/UserProfileLoader'
 import GitHubUserSearch from './components/GitHubUserSearch'
 import DashboardWidgets from './components/DashboardWidgets'
+import ProductList from './components/ProductList'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       </ClickOutside> */}
       {/* <UserProfileLoader/> */}
       {/* <GitHubUserSearch/> */}
-      <DashboardWidgets/>
+      {/* <DashboardWidgets/> */}
+      <ProductList/>
     </div>
   )
 }
